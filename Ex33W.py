@@ -1,3 +1,10 @@
-sexo = input('Masculino ou Feminino ? [M/F]')
+sex = input("Digite F para feminino ou M para masculino: ").upper()
 
-while sexo = 
+while (sex != 'F' and sex != 'M'):
+    print ('Opcão inválida, tente novamente!')
+    sex = input("Digite F para feminino ou M para masculino: ").upper()
+
+if (sex == 'F'):
+    print ('Sexo Feminino!')
+else: 
+    print('Sexo Masculino!')
